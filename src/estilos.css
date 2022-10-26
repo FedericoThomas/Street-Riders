@@ -1,0 +1,57 @@
+#root {
+    display:flex;
+    flex-direction:column;  
+}
+
+html, body, #root{
+    height:100%;
+}
+
+html{
+    background-image: url(/public/fondo.jpeg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#links{ 
+    text-decoration: none;
+    padding:10px;
+}
+
+#main-header{
+    background-color:gainsboro;
+    text-align: space-between;
+    justify-content:space-around;
+    align-items:center;
+    display:flex;
+    padding:5px; 
+    opacity:0.9;
+    border-radius: 12px 12px 12px 12px;
+}
+
+main{
+    
+    flex-grow: 1;
+   
+    
+}
+
+footer{
+    justify-content:center;
+    text-align: center;
+    background-color:#494747;   
+    padding:2.5rem;
+}
+
+#carrito{
+    display: flex;
+    color:#d40e60;
+}
